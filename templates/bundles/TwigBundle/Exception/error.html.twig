@@ -1,17 +1,13 @@
 {% extends 'base.html.twig' %}
-
 {% block title %}CCM - Dashboard{% endblock %}
 
 {% block main %}
-
-<div class="col-xl-10 col-sm-12 col-md-10 mt-4">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="{{ path('dashboard') }}">Inicio</a></li>
             <li class="breadcrumb-item active">No existe información</li>
         </ol>
     </nav>
-
     <div class="jumbotron py-2">
         <div class="container">
             <h1 class="display-4">No existe información</h1>
@@ -19,6 +15,4 @@
             <a href="{{ path('dashboard') }}">Regresar</a>
         </div>
     </div>
-</div>
 {% endblock %}
-
